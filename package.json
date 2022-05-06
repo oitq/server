@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node .",
-    "build": "tsc --project tsconfig.json && tsc-alias -p tsconfig.json",
+    "build": "tsc ./src/index.ts",
     "dev": "ts-node-dev -r tsconfig-paths/register ./src/index.ts",
     "pub": "npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,6 +25,9 @@
   },
   "homepage": "https://github.com/oitq/client#readme",
   "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa__router": "^8.0.11",
+    "@types/koa-bodyparser": "^4.3.6",
     "@types/node": "latest",
     "ts-node-dev": "latest",
     "tsc-alias": "latest",

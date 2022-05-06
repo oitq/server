@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node .",
     "build": "tsc --project tsconfig.json && tsc-alias -p tsconfig.json",
@@ -34,8 +37,8 @@
     "/lib/**/LICENSE"
   ],
   "dependencies": {
-    "@oitq/plugin-http-server": "^0.0.2",
-    "@oitq/plugin-one-bot": "^0.0.1",
-    "oitq": "^1.2.27"
+    "@oitq/plugin-http-server": "^0.0.4",
+    "@oitq/plugin-one-bot": "^0.0.5",
+    "oitq": "^1.2.31"
   }
 }

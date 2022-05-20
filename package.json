@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oitq/client.git"
+    "url": "git+https://github.com/oitq/server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oitq/client/issues"
+    "url": "https://github.com/oitq/server/issues"
   },
-  "homepage": "https://github.com/oitq/client#readme",
+  "homepage": "https://github.com/oitq/server#readme",
   "files": [
     "/lib/**/*.js",
     "/lib/**/*.d.ts",

@@ -1,4 +1,5 @@
 {
   "bots":[],
-  "logLevel":"infor",
+  "logLevel":"info",
+  "port":8086
 }

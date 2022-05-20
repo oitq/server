@@ -3,6 +3,6 @@ const httpServer = require('@oitq/plugin-http-server')
 const oneBot =require('@oitq/plugin-one-bot')
 
 createApp({logLevel: 'info'})
-    .plugin(httpServer, {port: process.env.PORT})
+    .plugin(httpServer, {port: process.env.PORT||8086})
     .plugin(oneBot)
     .start()

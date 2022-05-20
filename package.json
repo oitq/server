@@ -30,8 +30,8 @@
     "/lib/**/LICENSE"
   ],
   "dependencies": {
-    "@oitq/plugin-http-server": "^0.0.4",
-    "@oitq/plugin-one-bot": "^0.0.5",
-    "oitq": "^1.2.33"
+    "@oitq/plugin-http-server": "latest",
+    "@oitq/plugin-one-bot": "latest",
+    "oitq": "latest"
   }
 }

@@ -32,6 +32,6 @@
   "dependencies": {
     "@oitq/plugin-http-server": "^2.0.2-6",
     "@oitq/plugin-one-bot": "^2.0.2-5",
-    "oitq": "^2.0.4-15"
+    "oitq": "^2.0.4-16"
   }
 }
